@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
@@ -26,32 +19,31 @@ const Layout = ({ children, pageInfo }) => (
     `}
     render={data => (
       <>
-        <Container fluid className="px-0 main">
+        <Container fluid  className=" main p-0">
           <Row noGutters className="justify-content-center">
             <Col className="text-center">
               <Header siteTitle={data.site.siteMetadata.title} />
             </Col>
           </Row>
-          <Navbar pageInfo={pageInfo} />
+          
+          <Container className="" >
+            <Navbar pageInfo={pageInfo} />
+          </Container>
+          
           <Row noGutters>
             <Col>
-              <Container className="mt-5">
+              <Container fluid={true} className="p-0">
                 <main>{children}</main>
               </Container>
             </Col>
           </Row>
         </Container>
-        <Container fluid className="px-0">
+        <Container  className="">
           <Row noGutters>
             <Col className="footer-col">
-              <footer>
+              <footer>пыпввпвыпвыппвы
                 <span>
-                  © {new Date().getFullYear()}, Built with
-                  {` `}
-                  <a href="https://www.gatsbyjs.org">GatsbyJS</a>, originally coded by 
-                  {` `}<a href="https://github.com/billyjacoby">Billy Jacoby</a>
-                  <br />
-                  {` `}Enhanced by <a href="https://twitter.com/Sm0keDev">Sm0ke</a>
+                 {/* © {new Date().getFullYear()}*/}вапвапвапвапва
                 </span>
               </footer>
             </Col>
