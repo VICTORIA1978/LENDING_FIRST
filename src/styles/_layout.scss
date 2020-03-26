@@ -85,7 +85,7 @@ font-size: 1rem;
 
 /*fix*/
 .mod_fixed_block{
-  background-image: url('../images/fix.jpg');
+  background-image: url('../images/fixed.jpg');
 
   background-attachment: fixed;
   background-size: cover;
@@ -96,7 +96,18 @@ font-size: 1rem;
   background-position-x: center;
   background-position-y: 0px;
 }
+.mod_fixed_block_second{
+background-image: url('../images/fixed.jpg');
 
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-position: center center; */
+ height: 60vh;
+  background-repeat: no-repeat;
+  /* background: radial-gradient(black, transparent); */
+  background-position-x: center;
+  background-position-y: 0px;
+}
 .overlay_fixed{
   top:0;
   bottom: 0;

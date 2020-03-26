@@ -214,7 +214,7 @@ const IndexPage = () => (
 
   <Container  fluid className="">
     <Row className="">
-      <Col className="mod_fixed_block position-relative">
+      <Col className="mod_fixed_block_second position-relative">
      
      
      
@@ -222,6 +222,10 @@ const IndexPage = () => (
         <div className="d-flex justify-content-center align-items-center h-100">
         <Container  fluid className="  ">
           <h3 className="d-flex justify-content-center">СОТРУДНИЧЕСТВО</h3>
+          <p className="d-flex justify-content-center text-center">Доставку разрабатываем совместно, исходя из вашего 
+желания и местонахождения.
+По предварительной договорённости товар может 
+быть доставлен в любую точку Украины, СНГ или Европы.</p>
           <div className="d-flex justify-content-center"><Modal/></div>
          </Container>
 
@@ -237,7 +241,7 @@ const IndexPage = () => (
   </Container>
 
 
-  
+
 </Layout>
 )
 
