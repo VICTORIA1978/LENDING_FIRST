@@ -97,7 +97,7 @@ export default  () => {
           с помощью платья идеально отразить личность[]
            каждой невесты.</p>
           
-           <GoogleMap />
+           <GoogleMap /> 
        </Col>
        </Row>
      </div>
