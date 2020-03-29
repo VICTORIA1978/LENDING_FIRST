@@ -3,7 +3,7 @@ import { Row, Col, Container,Carousel,Caption } from "react-bootstrap"
 import Modal from "../components/modal"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import GoogleMap from '../components/GoogleMap'
+
 
 
 
@@ -255,7 +255,7 @@ export default  () => {
     <Row className="">
       <Col className="maps">      
      
-<GoogleMap />
+
      
 </Col>
       </Row>
