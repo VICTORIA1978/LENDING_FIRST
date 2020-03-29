@@ -29,17 +29,7 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    `gatsby-plugin-sitemap`,
-    {
- 
-        resolve: `gatsby-source-googlemaps-static`,
-        options: {
-            key: `AIzaSyD19ds72niNKqjb1LPXDpJNaqL4lmnYjHg`,
-            center: `41.8781,-87.6298`,
-           
-          
-        },
-    },
+   
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

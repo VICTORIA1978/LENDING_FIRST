@@ -23,12 +23,12 @@ const GoogleMap = () => (
       <AnyReactComponent
         lat={48.291888}
         lng={25.940761}
-        text={' Avr'}
+        text={' Avsr'}
       />
        <AyReactComponent
         lat={48.291888}
         lng={25.940000}
-        text={' Avr'}
+        text={' Avsr'}
       />
     </GoogleMapReact>
   </div>
