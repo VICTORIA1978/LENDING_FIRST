@@ -3,8 +3,17 @@ import { Row, Col, Container,Carousel,Caption } from "react-bootstrap"
 import Modal from "../components/modal"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import GoogleMap from '../components/GoogleMap'
 
-const IndexPage = () => (
+
+
+
+
+
+export default  () => {
+
+
+  return(
   <Layout pageInfo={{ pageName: "index" }}>
   <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
   <Container  fluid className="">
@@ -60,12 +69,12 @@ const IndexPage = () => (
      
      
      
-     
+
      <div className="about_overlay ">
       <p>ФИЛОСОФИЯ БРЕНДА</p>
        <Row className="">
        <Col  className="col-sm-8 ">
-       <h1 className="">Мы создаем лучшие свадебные образы</h1>
+       <h1 className="">Мы создаем лучшие свадебные образы{5+5}</h1>
        </Col>
        <Col className="  col-sm-4 d-md-block d-none  ">
        <h1 className="d-flex justify-content-end d-inline"><span>Logo</span></h1>
@@ -87,8 +96,8 @@ const IndexPage = () => (
          чтобы подчеркнуть индивидуальность и
           с помощью платья идеально отразить личность[]
            каждой невесты.</p>
-           
-
+          
+          
        </Col>
        </Row>
      </div>
@@ -147,6 +156,7 @@ const IndexPage = () => (
 
 
 
+
         </div>
       </div>
         
@@ -193,11 +203,7 @@ const IndexPage = () => (
 </Carousel>
         
  
-        
-     
-     
-     
-     
+
       </Col>
       </Row>
   </Container>
@@ -212,6 +218,7 @@ const IndexPage = () => (
 
 
 
+  
   <Container  fluid className="">
     <Row className="">
       <Col className="mod_fixed_block_second position-relative">
@@ -220,13 +227,17 @@ const IndexPage = () => (
      
       <div className="overlay_fixed position-absolute">
         <div className="d-flex justify-content-center align-items-center h-100">
-        <Container  fluid className="  ">
+        <Container   className="  ">
           <h3 className="d-flex justify-content-center">СОТРУДНИЧЕСТВО</h3>
           <p className="d-flex justify-content-center text-center">Доставку разрабатываем совместно, исходя из вашего 
 желания и местонахождения.
 По предварительной договорённости товар может 
 быть доставлен в любую точку Украины, СНГ или Европы.</p>
           <div className="d-flex justify-content-center"><Modal/></div>
+
+
+
+        
          </Container>
 
 
@@ -240,9 +251,26 @@ const IndexPage = () => (
       </Row>
   </Container>
 
+  <Container  fluid className="p-0">
+    <Row className="">
+      <Col className="maps">      
+     
+<GoogleMap />
+     
+</Col>
+      </Row>
+  </Container>
+  <Container  fluid className="p-0">
+    <Row className="">
+      <Col className="foters">      
+     
 
-
+     
+</Col>
+      </Row>
+  </Container>
 </Layout>
-)
+  )
+}
 
-export default IndexPage
+

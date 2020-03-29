@@ -102,7 +102,7 @@ background-image: url('../images/fixed.jpg');
   background-attachment: fixed;
   background-size: cover;
   /* background-position: center center; */
- height: 60vh;
+ height: 70vh;
   background-repeat: no-repeat;
   /* background: radial-gradient(black, transparent); */
   background-position-x: center;
@@ -116,7 +116,12 @@ background-image: url('../images/fixed.jpg');
   background: #7474746e;
 }
 
-
+.map{
+  height: 32px;
+    width: 41px;
+    background: red;
+    border-radius: 1rem;
+}
 
  
 
@@ -225,7 +230,16 @@ background-image: url('../images/fixed.jpg');
     border-radius: 1rem;
     animation: radial-pulse 1.5s infinite;
 }
-
+.map{
+  animation: radial-pulse 1.5s infinite;
+}
+.maps{
+  height: 60vh;
+}
+.foters{
+  background: #3a3a3a;
+    height: 40vh;
+}
 .pulse {
   display: flex;
     justify-content: center;

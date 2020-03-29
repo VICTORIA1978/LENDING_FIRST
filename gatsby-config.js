@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
-    title: `GatsbyJS - Bootstrap4 Starter`,
+    title: `Gatsby - Bootstrap4 Starter`,
     description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
     author: `Billy Jacoby`,
     siteUrl: `https://gatsby-starter-bootstrap.appseed.us`
@@ -29,9 +29,20 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    {
+ 
+        resolve: `gatsby-source-googlemaps-static`,
+        options: {
+            key: `AIzaSyD19ds72niNKqjb1LPXDpJNaqL4lmnYjHg`,
+            center: `41.8781,-87.6298`,
+           
+          
+        },
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,https://goo.gl/maps/jNDpZf2MR8Gi89GBA
   ],
 }

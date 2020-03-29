@@ -17,7 +17,7 @@ const Layout = ({ children, pageInfo }) => (
         }
       }
     `}
-    render={data => (
+    render={ data => (
       <>
         <Container fluid  className=" main p-0">
           <Row noGutters className="justify-content-center">
@@ -41,9 +41,9 @@ const Layout = ({ children, pageInfo }) => (
         <Container  className="">
           <Row noGutters>
             <Col className="footer-col">
-              <footer>пыпввпвыпвыппвы
+              <footer>
                 <span>
-                 {/* © {new Date().getFullYear()}*/}вапвапвапвапва
+                 {/* © {new Date().getFullYear()}*/}
                 </span>
               </footer>
             </Col>
