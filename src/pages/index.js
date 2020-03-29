@@ -3,7 +3,7 @@ import { Row, Col, Container,Carousel,Caption } from "react-bootstrap"
 import Modal from "../components/modal"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import GoogleMap from '../components/GoogleMap'
 
 
 
@@ -97,7 +97,7 @@ export default  () => {
           с помощью платья идеально отразить личность[]
            каждой невесты.</p>
           
-          
+           <GoogleMap />
        </Col>
        </Row>
      </div>
