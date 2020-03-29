@@ -253,16 +253,16 @@ export default  () => {
 
   <Container  fluid className="p-0">
     <Row className="">
-      <Col className="maps">      
+      <Col className="mapss">      
      
-
+      <GoogleMap /> 
      
 </Col>
       </Row>
   </Container>
   <Container  fluid className="p-0">
     <Row className="">
-      <Col className="foters">      
+      <Col className="foterss">      
      
 
      
