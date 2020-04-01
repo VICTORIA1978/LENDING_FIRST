@@ -128,13 +128,8 @@ const Navbar = class extends React.Component {
        data-netlify="true" 
        data-netlify-honeypot="bot-field">
  
-     <input type="text" placeholder="Yor Name" name="name" ></input>
- 
- 
-  
-
-  
-    <button type="submit">Send</button>
+     <input name="name" placeholder="Yor Name"  type="text" />
+ <button>Send</button>
   
 </form>
       </div>
