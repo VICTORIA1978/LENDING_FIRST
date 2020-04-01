@@ -230,12 +230,12 @@ background-image: url('../images/fixed.jpg');
   transform: translate(0,-50px);
 }
 .pulse_button_open{
-  display: flex;
+  display: block;
     justify-content: center;
-   
+    align-items: center;
     width: 158px;
     height: 42px;
-    color: #5e3616a9;
+    color: #9d9d9d;
    
     border-radius: 1rem;
     animation: radial-pulse 1.5s infinite;
