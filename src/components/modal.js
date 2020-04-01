@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import Forme from './form'
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -122,11 +122,7 @@ const Navbar = class extends React.Component {
         </li></ul>
       </div>
       <div class="modal-footer">
-      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
- 
-  <input type="hidden" name="form-name" value="contact" />
-sdsdsd
-</form>
+    <Forme></Forme>
       </div>
     </div>
             </div>
