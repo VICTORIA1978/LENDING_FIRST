@@ -122,21 +122,7 @@ const Navbar = class extends React.Component {
         </li></ul>
       </div>
       <div class="modal-footer">
-      <form
-       name="contact" 
-       method="post" 
-       data-netlify="true" 
-       data-netlify-honeypot="bot-field">
- 
-     <input type="text" placeholder="Yor Name" name="name" ></input>
- 
- 
-  
-
-  
-    <button type="submit">Send</button>
-  
-</form>
+      
       </div>
     </div>
             </div>
