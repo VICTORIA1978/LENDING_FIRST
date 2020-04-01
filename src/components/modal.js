@@ -121,7 +121,7 @@ const Navbar = class extends React.Component {
         <li style={{fontWeight:'100'}}>мы уверены, что Вы будете довольны нашей продукцией. Мы используем только лучшие материалы, и наши платья будут выглядеть  в точности как на фото. А так же за много лет в свадебной индустрии мы обрели множество постоянных клиентов, которые оставляют только положительные отзывы.
         </li></ul>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer p-0 bg-secondary text-white">
     <Forme></Forme>
       </div>
     </div>
