@@ -82,7 +82,7 @@ export default  () => {
       <p>ФИЛОСОФИЯ БРЕНДА</p>
        <Row className="">
        <Col  className="col-sm-8 ">
-       <h1 className="">Мы создаем лучшие свадебные образы{5+5}</h1>
+       <h3 className="">Мы создаем лучшие свадебные образы</h3>
        </Col>
        <Col className="  col-sm-4 d-md-block d-none  ">
        <h1 className="d-flex justify-content-end d-inline"><span>Logo</span></h1>
