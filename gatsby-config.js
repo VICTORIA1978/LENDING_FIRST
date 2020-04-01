@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
-    title: `Gatsby - Bootstrap4 Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
+    title: `Свадебные платья от Victoria Simak`,
+    description: `Свадебные платья от Victoria Simak`,
     author: `Billy Jacoby`,
     siteUrl: `https://gatsby-starter-bootstrap.appseed.us`
   },
