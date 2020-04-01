@@ -1,6 +1,7 @@
 import React from "react"
 import { Row, Col, Container,Carousel,Caption } from "react-bootstrap"
 import Modal from "../components/modal"
+import Modall from "../components/modal2"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GoogleMap from '../components/GoogleMap'
@@ -232,7 +233,7 @@ export default  () => {
 желания и местонахождения.
 По предварительной договорённости товар может 
 быть доставлен в любую точку Украины, СНГ или Европы.</p>
-          <div className="d-flex justify-content-center"><Modal/></div>
+          <div className="d-flex justify-content-center"><Modall/></div>
 
 
 

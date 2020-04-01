@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
               className={`pulse_button_open navbar-burger  text-center${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
-            ><p  className="m-0 p-0">подробней</p>
+            ><span  className="m-0 p-0 align-middle">подробней</span>
               
             </div>
           </div>

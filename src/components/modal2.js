@@ -43,10 +43,10 @@ const Navbar = class extends React.Component {
             {/* Hamburger menu */}
             <div
             style={{fontWeight:'100', cursor:'pointer'}}
-              className={`pulse_button_open navbar-burger  align-middle text-center${this.state.navBarActiveClass}`}
+              className={`pulse_button_open navbar-burger   text-center${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
-            ><p>подробн</p>
+            ><span>подробнtq</span>
               
             </div>
           </div>
