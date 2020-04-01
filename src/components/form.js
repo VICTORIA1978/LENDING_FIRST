@@ -54,24 +54,30 @@ export default class Contact extends React.Component {
           </p>
           <p>
             <label style={{fontWeight:'100'}} className="w-100">
-              Your name:<br />
+              your name:<br />
               <input className="w-100" type="text" name="name" onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label style={{fontWeight:'100'}} className="w-100">
-              Your email:<br />
+   your name:<br />
+              <input className="w-100" type="text" name="name" onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label style={{fontWeight:'100'}} className="w-100">
+              your email:<br />
               <input className="w-100" type="email" name="email" onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label style={{fontWeight:'100'}} className="w-100">
-              Message:<br />
+              message:<br />
               <textarea className="w-100" name="message" onChange={this.handleChange} />
             </label>
           </p>
           <p className="text-center">
-            <button className="w-50"  type="submit">Send</button>
+            <button className="w-50"  type="submit">SEND</button>
           </p>
         </form>
       </div>
