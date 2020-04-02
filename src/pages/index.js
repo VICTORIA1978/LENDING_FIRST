@@ -29,10 +29,21 @@ export default  () => {
      <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faYoutube} /></span>
      <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faGoogle} /></span>
      </div>
-
+     <div className=" style vh-100  w-100 position-absolute "></div>
+     <div className="vh-100  w-100 d-flex align-items-center ">
+     <div style={{ marginTop:'-200px'}} className="w-100  ">
+     <div className="d-flex justify-content-start w-100"><h1 style={{fontWeight:'400', fontStyle: 'italic', fontSize:'6rem', color:'rgb(255, 160, 164)',marginTop:'10px'}}>2020</h1></div>
+     <div className="d-flex justify-content-center w-100"><h1 style={{fontWeight:'100', fontStyle: 'italic', fontSize:'8rem', color:'#ddebff',marginTop:'0px'}}>WEDDING</h1></div>
+     <div className="d-flex justify-content-end w-100"><h1 style={{fontWeight:'400', fontStyle: 'italic', fontSize:'6rem', color:'rgb(255, 160, 164)',marginTop:'0px'}}>2021</h1></div>
+      
+      
+      </div>
+      </div>
       </Col>
-      <div className=" style vh-100  w-100 position-absolute "></div>
-     
+    
+      <div className="vh-100  w-100 position-absolute d-flex align-items-center ">
+        <div></div>
+      </div>
       </Row>
   </Container>
   <Container  fluid className="overlay px-3 py-5">
