@@ -164,20 +164,7 @@ background-image: url('../images/fixn.jpg');
   padding-left: 20px;
 
  }
-@include media-breakpoint-up(sm) {
-  .text_fashions h1{
-    font-size: 5rem;
-  }
-   .text_normal p{
-    position: relative;
-    text-align: center;
-   
-    background: #9494949c;
-    letter-spacing: 30px;
-    padding-left:18px;
-  
-   }
-}
+
 
 @include media-breakpoint-up(md) {
      
@@ -192,25 +179,25 @@ background-image: url('../images/fixn.jpg');
 }
 //slider-------------------------------------------------------------------------------------------
 .der{
-  height: 90vh;
-  background-image: url('../images/head.jpg');
+  height: 100vh;
+  background-image: url('../images/slide1Asmol.jpg');
   background-size: cover;
   background-position: center;
 }
 .der1{
-  height: 90vh;
-  background-image: url('../images/head.jpg');
+  height: 100vh;
+  background-image: url('../images/slider1.jpg');
   background-size: cover;
   background-position: center;
 }
 .der2{
-  height: 90vh;
-  background-image: url('../images/head.jpg');
+  height: 100vh;
+  background-image: url('../images/slider1.jpg');
   background-size: cover;
   background-position: center;
 }
 .mod_slider{
-  height: 90vh;
+  height: 100vh;
 }
 
 //pulse modal dialog ------------------------------------------------------------------------
@@ -291,3 +278,23 @@ background-image: url('../images/fixn.jpg');
     animation: radial-pulse 1.5s infinite;
 }
 //sposob dostavci--------------------------------------
+@include media-breakpoint-up(sm) {
+  .text_fashions h1{
+    font-size: 5rem;
+  }
+   .text_normal p{
+    position: relative;
+    text-align: center;
+   
+    background: #9494949c;
+    letter-spacing: 30px;
+    padding-left:18px;
+  
+   }
+   .der{
+    height: 100vh;
+    background-image: url('../images/slide1big.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -57,7 +57,7 @@ const Navbar = class extends React.Component {
                  <div className="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle">Условия сотрудничества</h5>
+                      <h5 class="modal-title" id="exampleModalLongTitle">ДОСТАВКА И ОПЛАТА</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span  className={`btn btn-secondary   ${this.state.navBarActiveClass}`}
               type="button"
@@ -72,7 +72,7 @@ const Navbar = class extends React.Component {
 </p>
 
         <p><strong style={{fontWeight:'400'}}>1. Мы предусматриваем несколько вариантов сотрудничества:</strong></p>
-        <p><strong style={{fontWeight:'400'}}>1.1 Оптовый покупатель: </strong>
+        <p><strong style={{fontWeight:'400'}}> Как производится оплата заказа? </strong>
         </p>
         <ul>
         <li style={{fontWeight:'100'}}>свободные, ни к чему Вас не обязывающие отношения, начиная с момента первого оптового заказа по оптовым ценам. Такой вариант действен до момента, когда другой  клиент из вашего города проявит желание стать нашим эксклюзивным партнёром. В таком случае, Вы сможете покупать наши платья через эксклюзивного представителя в вашем городе.
