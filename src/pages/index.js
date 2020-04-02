@@ -200,7 +200,7 @@ export default  () => {
    
   </Carousel.Item>
   <Carousel.Item>
-        <div className="der"></div>
+        <div className="der1"></div>
 
     
   </Carousel.Item>
