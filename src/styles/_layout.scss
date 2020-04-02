@@ -179,7 +179,7 @@ background-image: url('../images/fixn.jpg');
 }
 //slider-------------------------------------------------------------------------------------------
 .der{
-  height: 100vh;
+  height: 80vh;
   background-image: url('../images/slide1Asmol.jpg');
   background-size: cover;
   background-position: center;
@@ -197,7 +197,7 @@ background-image: url('../images/fixn.jpg');
   background-position: center;
 }
 .mod_slider{
-  height: 100vh;
+  height: 80vh;
 }
 
 //pulse modal dialog ------------------------------------------------------------------------
@@ -296,5 +296,8 @@ background-image: url('../images/fixn.jpg');
     background-image: url('../images/slide1big.jpg');
     background-size: cover;
     background-position: center;
+  }
+  .mod_slider{
+    height: 100vh;
   }
 }
