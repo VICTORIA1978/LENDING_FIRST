@@ -138,11 +138,11 @@ background-image: url('../images/fixed.jpg');
  
 @keyframes radial-pulse {
   0% {
-    box-shadow: 0 0 0 0px rgba(255, 204, 170, 0.5);
+    box-shadow: 0 0 0 0px rgba(255, 196, 196, 0.582);
   }
  
   100% {
-    box-shadow: 0 0 0 30px rgba(255, 219, 190, 0);
+    box-shadow: 0 0 0 20px #fc710000;
   }
 }
 
