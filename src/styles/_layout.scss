@@ -95,7 +95,7 @@ font-size: 1rem;
 
 /*fix*/
 .mod_fixed_block{
-  background-image: url('../images/fixed.jpg');
+  background-image: url('../images/fixn.jpg');
 
   background-attachment: fixed;
   background-size: cover;
@@ -107,7 +107,7 @@ font-size: 1rem;
   background-position-y: 0px;
 }
 .mod_fixed_block_second{
-background-image: url('../images/fixed.jpg');
+background-image: url('../images/fixn.jpg');
 
   background-attachment: fixed;
   background-size: cover;
@@ -151,10 +151,7 @@ background-image: url('../images/fixed.jpg');
 //media all-----------------------------------------------
  
 @include media-breakpoint-up(sm) {
-  .about_overlay h1{
-    font-size: 2rem;
-  
-      }
+
 }
 
 @include media-breakpoint-up(md) {
@@ -164,7 +161,10 @@ background-image: url('../images/fixed.jpg');
 
 @include media-breakpoint-up(lg) {
  
-      
+  html{
+    font-size:1.2rem;
+  }
+
       
 }
 //slider-------------------------------------------------------------------------------------------
