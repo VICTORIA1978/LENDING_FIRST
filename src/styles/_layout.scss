@@ -153,10 +153,16 @@ background-image: url('../images/fixn.jpg');
   font-size: 4rem;
 }
 .text_fashions h1{
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
- .text_normal{
-  letter-spacing: 25px;
+ .text_normal p{
+  position: relative;
+  text-align: center;
+ 
+  background: #9494949c;
+  letter-spacing: 24px;
+  padding-left: 20px;
+
  }
 @include media-breakpoint-up(sm) {
 
