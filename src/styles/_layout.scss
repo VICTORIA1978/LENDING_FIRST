@@ -153,7 +153,7 @@ background-image: url('../images/fixn.jpg');
   font-size: 4rem;
 }
 .text_fashions h1{
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
  .text_normal p{
   position: relative;
@@ -165,7 +165,18 @@ background-image: url('../images/fixn.jpg');
 
  }
 @include media-breakpoint-up(sm) {
-
+  .text_fashions h1{
+    font-size: 5rem;
+  }
+   .text_normal p{
+    position: relative;
+    text-align: center;
+   
+    background: #9494949c;
+    letter-spacing: 30px;
+    padding-left:18px;
+  
+   }
 }
 
 @include media-breakpoint-up(md) {
@@ -175,9 +186,7 @@ background-image: url('../images/fixn.jpg');
 
 @include media-breakpoint-up(lg) {
  
-  html{
-    font-size:1.2rem;
-  }
+ 
 
       
 }
