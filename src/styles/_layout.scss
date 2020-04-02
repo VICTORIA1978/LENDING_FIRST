@@ -149,7 +149,15 @@ background-image: url('../images/fixn.jpg');
 
 
 //media all-----------------------------------------------
- 
+.text_fashion{
+  font-size: 4rem;
+}
+.text_fashions h1{
+  font-size: 4.5rem;
+}
+ .text_normal{
+  letter-spacing: 30px;
+ }
 @include media-breakpoint-up(sm) {
 
 }
