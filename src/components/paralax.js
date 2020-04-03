@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
- import Img from '../images/fixn.jpg';
+ import Img from '../images/paralax1.jpg';
 const MyComponent = () => (
     <div >
      
@@ -15,7 +15,7 @@ const MyComponent = () => (
                 />
             )}
         >
-            <p className="bg m-0 p-0">... Content</p>
+            <p className="bg m-0 p-0"></p>
         </Parallax>
  
       
