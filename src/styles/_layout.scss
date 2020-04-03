@@ -99,12 +99,11 @@ font-size: 1rem;
 
   background-attachment: fixed;
   background-size: cover;
-  /* background-position: center center; */
- height: 40vh;
   background-repeat: no-repeat;
-  /* background: radial-gradient(black, transparent); */
   background-position-x: center;
-  background-position-y: 0px;
+  background-position-y: 0;
+  overflow-y: hidden;
+   -webkit-background-size: cover;
 }
 .mod_fixed_block_second{
 background-image: url('../images/fixn.jpg');
