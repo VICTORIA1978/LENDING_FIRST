@@ -5,7 +5,8 @@ import Modall from "../components/modal2"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GoogleMap from '../components/GoogleMap'
-
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 import Par from "../components/paralax"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faInstagram,faFacebookF,faYoutube,faGoogle } from "@fortawesome/free-brands-svg-icons"
@@ -35,11 +36,16 @@ export default  () => {
          <Col>
      <div className="vh-100  w-100 d-flex align-items-center ">
      <div style={{ marginTop:'0px'}} className="w-100  ">
+     <ScrollAnimation animateIn="fadeInLeft">
      <div className="text_fashion d-flex justify-content-start w-100 m-0"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'10px'}}>2020</p></div>
+     </ScrollAnimation>
+     <ScrollAnimation animateIn="fadeIn">
      <div className="text_fashions d-flex justify-content-center w-100"><h1 style={{fontWeight:'100', fontStyle: 'italic',  color:'#ddebff',marginTop:'0px'}}>WEDDING</h1></div>
      <div className="text_normal d-flex justify-content-center w-100"><p style={{fontWeight:'100', fontStyle: 'normal',  color:'#ddebff',marginTop:'0px'}}>COLLECTION</p></div>
+     </ScrollAnimation>
+     <ScrollAnimation animateIn="fadeInRight">
      <div className="text_fashion d-flex justify-content-end w-100"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'0px'}}>2021</p></div>
-      
+     </ScrollAnimation>
       
       </div>
      
@@ -100,23 +106,34 @@ export default  () => {
      
 
      <div className="about_overlay ">
+     <ScrollAnimation animateIn="fadeIn">
       <p>ФИЛОСОФИЯ БРЕНДА</p>
+      </ScrollAnimation>
        <Row className="">
+     
        <Col  className="col-sm-8 ">
        <h3 className="">Мы создаем лучшие свадебные образы</h3>
        </Col>
+    
        <Col className="  col-sm-4 d-md-block d-none  ">
        <h1 className="d-flex justify-content-end d-inline"><span>Logo</span></h1>
        </Col>
+      
        <Col className="col-12 col-sm-5 pl-5  py-5">
+   
       <p >Victoria Simak - известный бренд, который представляет на мировом рынке эксклюзивные модели свадебных платьев. Мы воплощаем любые вкусы невест - от проверенной временем классики, до самых современных веяний моды.
 В разработке платьев используются дорогие ткани разной фактуры и текстуры ведущих европейских производителей, декорированные элементами ручной работы.</p>
+
        </Col>
+       
+      
        <Col className="col-12 col-sm-7 pl-sm-5  py-sm-5 ">
+     
        <p className="mb-4"> Мы отличаемся внимательным подходом к пожеланиям заказчика, и стремимся выдержать индивидуальный,  неповторимый стиль, который в каждом случае подчёркивает чувственность и индивидуальность, идеально соответствующий образу и характеру невесты.</p>
-          
+      
          
        </Col>
+       
        </Row>
      </div>
      
@@ -168,8 +185,11 @@ export default  () => {
       <div className="overlay_fixed position-absolute">
         <div className="d-flex justify-content-center align-items-center h-100">
         <Container  fluid className="  ">
+        <ScrollAnimation animateIn="fadeIn">
           <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
+       
           <div className="d-flex justify-content-center"><Modal/></div>
+          </ScrollAnimation>
          </Container>
 
 
@@ -239,6 +259,7 @@ export default  () => {
         <div className="d-flex justify-content-center align-items-center h-100">
        
         <Container   className="  ">
+        <ScrollAnimation animateIn="fadeIn">
           <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
           <p className="d-flex justify-content-center text-center text-light">Доставку разрабатываем совместно, исходя из вашего 
 желания и местонахождения.
@@ -247,7 +268,7 @@ export default  () => {
           <div className="d-flex justify-content-center"><Modall/></div>
 
 
-
+         </ScrollAnimation>
         
          </Container>
 

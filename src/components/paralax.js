@@ -1,16 +1,16 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
- import Img from '../images/nevn.jpg';
+ import Img from '../images/fixn.jpg';
 const MyComponent = () => (
     <div >
      
-     <Parallax className="para"
+     <Parallax className="para" 
             bgImage={Img}
   
-            strength={900}
+            strength={600}
             renderLayer={percentage => (
                 <div
-              
+             
                 
                 />
             )}
