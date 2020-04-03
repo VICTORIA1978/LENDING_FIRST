@@ -98,7 +98,8 @@ export default  () => {
   
   <Container  fluid className="">
     <Row className="">
-      <Col className="about  px-2  py-5 ">
+      <Col className="about  px-2  py-5  position-relative ">
+        <div className="corection position-absolute "></div>
      
      
      
