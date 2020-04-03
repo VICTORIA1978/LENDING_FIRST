@@ -8,6 +8,7 @@ import GoogleMap from '../components/GoogleMap'
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Par from "../components/paralax"
+import Par2 from "../components/paralax2"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faInstagram,faFacebookF,faYoutube,faGoogle } from "@fortawesome/free-brands-svg-icons"
 
@@ -40,7 +41,7 @@ export default  () => {
      
      <div className="text_fashion d-flex justify-content-start w-100 m-0"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'10px'}}>2020</p></div>
      </ScrollAnimation> 
-     <ScrollAnimation animateIn="rubberBand">
+     <ScrollAnimation animateIn="fadeIn">
      <div className="text_fashions d-flex justify-content-center w-100"><h1 style={{fontWeight:'100', fontStyle: 'italic',  color:'#ddebff',marginTop:'0px'}}>WEDDING</h1></div>
      <div className="text_normal d-flex justify-content-center w-100"><p style={{fontWeight:'100', fontStyle: 'normal',  color:'#ddebff',marginTop:'0px'}}>COLLECTION</p></div>
 </ScrollAnimation> 
@@ -179,8 +180,8 @@ export default  () => {
  
   <Container  fluid className="">
     <Row className="">
-      <Col className="mod_fixed_block position-relative">
-     
+      <Col className=" position-relative p-0">
+      <Par2/>
      
      
       <div className="overlay_fixed position-absolute">
