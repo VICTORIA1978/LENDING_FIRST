@@ -209,7 +209,7 @@ export default  () => {
 
   <Container   className="">
     <Row className="">
-      <Col className="mod_slider   my-5 vh-100">
+      <Col className="mod_slider   my-5">
      
         
         
@@ -217,7 +217,7 @@ export default  () => {
         
         
         
-        
+
         
  
 
