@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GoogleMap from '../components/GoogleMap'
 
-
+import Par from "../components/paralax"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faInstagram,faFacebookF,faYoutube,faGoogle } from "@fortawesome/free-brands-svg-icons"
 
@@ -230,12 +230,14 @@ export default  () => {
   
   <Container  fluid className="">
     <Row className="">
-      <Col className="mod_fixed_block_second position-relative">
-     
+      <Col className=" position-relative">
+      <Par/>
      
      
       <div className="overlay_fixed position-absolute">
+      
         <div className="d-flex justify-content-center align-items-center h-100">
+       
         <Container   className="  ">
           <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
           <p className="d-flex justify-content-center text-center text-light">Доставку разрабатываем совместно, исходя из вашего 
@@ -273,7 +275,7 @@ export default  () => {
     <Row className="">
       <Col className="foterss">      
      
-
+    <Par/>
      
 </Col>
       </Row>

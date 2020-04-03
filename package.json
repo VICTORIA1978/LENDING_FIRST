@@ -29,7 +29,8 @@
     "react-dom": "^16.8.6",
     "react-google-recaptcha": "^2.0.1",
     "react-helmet": "^5.2.0",
-    "react-icons": "^3.6.1"
+    "react-icons": "^3.6.1",
+    "react-parallax": "^3.0.3"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
