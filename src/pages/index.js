@@ -39,14 +39,14 @@ export default  () => {
      <div style={{ marginTop:'0px'}} className="w-100  ">
      <ScrollAnimation animateIn="fadeInLeft">
      
-     <div className="text_fashion d-flex justify-content-start w-100 m-0"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'10px'}}>2020</p></div>
+     <div className="text_fashion d-flex justify-content-start w-100 m-0"><p >202</p></div>
      </ScrollAnimation> 
      <ScrollAnimation animateIn="fadeIn">
-     <div className="text_fashions d-flex justify-content-center w-100"><h1 style={{fontWeight:'100', fontStyle: 'italic',  color:'#ddebff',marginTop:'0px'}}>WEDDING</h1></div>
-     <div className="text_normal d-flex justify-content-center w-100"><p style={{fontWeight:'100', fontStyle: 'normal',  color:'#ddebff',marginTop:'0px'}}>COLLECTION</p></div>
+     <div className="text_fashions d-flex justify-content-center w-100"><h1 >WEDDING</h1></div>
+     <div className="text_normal d-flex justify-content-center w-100"><p >COLLECTION</p></div>
 </ScrollAnimation> 
 <ScrollAnimation animateIn="fadeInRight">
-     <div className="text_fashion d-flex justify-content-end w-100"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'0px'}}>2021</p></div>
+     <div className="text_fashion d-flex justify-content-end w-100"><p >2021</p></div>
      </ScrollAnimation>
       
       </div>
@@ -209,7 +209,7 @@ export default  () => {
 
   <Container   className="">
     <Row className="">
-      <Col className="mod_slider   my-5">
+      <Col className="mod_slider   my-5 vh-100">
      
         
         
@@ -217,7 +217,7 @@ export default  () => {
         
         
         
-
+        
         
  
 
