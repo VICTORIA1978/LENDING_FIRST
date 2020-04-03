@@ -275,7 +275,7 @@ export default  () => {
     <Row className="">
       <Col className="foterss">      
      
-    <Par/>
+    
      
 </Col>
       </Row>
