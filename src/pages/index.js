@@ -37,13 +37,14 @@ export default  () => {
      <div className="vh-100  w-100 d-flex align-items-center ">
      <div style={{ marginTop:'0px'}} className="w-100  ">
      <ScrollAnimation animateIn="fadeInLeft">
+     
      <div className="text_fashion d-flex justify-content-start w-100 m-0"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'10px'}}>2020</p></div>
-     </ScrollAnimation>
+     </ScrollAnimation> 
      <ScrollAnimation animateIn="fadeIn">
      <div className="text_fashions d-flex justify-content-center w-100"><h1 style={{fontWeight:'100', fontStyle: 'italic',  color:'#ddebff',marginTop:'0px'}}>WEDDING</h1></div>
      <div className="text_normal d-flex justify-content-center w-100"><p style={{fontWeight:'100', fontStyle: 'normal',  color:'#ddebff',marginTop:'0px'}}>COLLECTION</p></div>
-     </ScrollAnimation>
-     <ScrollAnimation animateIn="fadeInRight">
+</ScrollAnimation> 
+<ScrollAnimation animateIn="fadeInRight">
      <div className="text_fashion d-flex justify-content-end w-100"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'0px'}}>2021</p></div>
      </ScrollAnimation>
       
@@ -106,9 +107,9 @@ export default  () => {
      
 
      <div className="about_overlay ">
-     <ScrollAnimation animateIn="fadeIn">
+ 
       <p>ФИЛОСОФИЯ БРЕНДА</p>
-      </ScrollAnimation>
+ 
        <Row className="">
      
        <Col  className="col-sm-8 ">
@@ -185,11 +186,11 @@ export default  () => {
       <div className="overlay_fixed position-absolute">
         <div className="d-flex justify-content-center align-items-center h-100">
         <Container  fluid className="  ">
-        <ScrollAnimation animateIn="fadeIn">
+ 
           <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
        
           <div className="d-flex justify-content-center"><Modal/></div>
-          </ScrollAnimation>
+         
          </Container>
 
 
@@ -259,7 +260,7 @@ export default  () => {
         <div className="d-flex justify-content-center align-items-center h-100">
        
         <Container   className="  ">
-        <ScrollAnimation animateIn="fadeIn">
+        
           <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
           <p className="d-flex justify-content-center text-center text-light">Доставку разрабатываем совместно, исходя из вашего 
 желания и местонахождения.
@@ -268,7 +269,7 @@ export default  () => {
           <div className="d-flex justify-content-center"><Modall/></div>
 
 
-         </ScrollAnimation>
+       
         
          </Container>
 
