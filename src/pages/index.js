@@ -209,7 +209,7 @@ export default  () => {
 
   <Container   className="">
     <Row className="">
-      <Col className="mod_slider   my-5">
+      <Col className="mod_slider   my-5 vh-100">
      
         
         
@@ -217,22 +217,7 @@ export default  () => {
         
         
         
-        <Carousel>
-  <Carousel.Item>
-    <div className="der"></div>
-   
-  </Carousel.Item>
-  <Carousel.Item>
-        <div className="der1"></div>
-
-    
-  </Carousel.Item>
-  <Carousel.Item>
-  <div className="der"></div>
-
-   
-  </Carousel.Item>
-</Carousel>
+        
         
  
 
