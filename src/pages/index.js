@@ -230,7 +230,7 @@ export default  () => {
   
   <Container  fluid className="">
     <Row className="">
-      <Col className=" position-relative">
+      <Col className=" position-relative p-0">
       <Par/>
      
      
