@@ -94,7 +94,7 @@ font-size: 1rem;
 }
 .para img{
   
- top:180px;
+ top:280px;
 }
 .position{
   position: relative;
@@ -102,38 +102,16 @@ font-size: 1rem;
 }
 .bg{
   
-  height:90vh;
+  height:100vh;
 }
 /*fix*/
-.mod_fixed_block{
-  background-image: url('../images/fixn.jpg');
-  height: 40vh;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 0;
-  overflow-y: hidden;
-   -webkit-background-size: cover;
-}
-.mod_fixed_block_second{
-background-image: url('../images/fixn.jpg');
 
-  background-attachment: fixed;
-  background-size: cover;
-  /* background-position: center center; */
- height: 70vh;
-  background-repeat: no-repeat;
-  /* background: radial-gradient(black, transparent); */
-  background-position-x: center;
-  background-position-y: 0px;
-}
 .overlay_fixed{
   top:0;
   bottom: 0;
   left:0;
   right: 0;
-  background: #7474746e;
+  background: #00000088;
 }
 
 .map{

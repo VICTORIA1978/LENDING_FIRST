@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand m-0">
            
             {/* Hamburger menu */}
-            <ScrollAnimation animateIn="rubberBand"> <div
+            <ScrollAnimation animateIn="bounceIn"> <div
            
               className={`pulse_button_open navbar-burger  d-flex align-items-center justify-content-center${this.state.navBarActiveClass}`}
               data-target="navMenu"
