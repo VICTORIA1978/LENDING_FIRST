@@ -1,6 +1,5 @@
 import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
+
 import Forme from './form'
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +41,7 @@ const Navbar = class extends React.Component {
           <div className="navbar-brand m-0">
            
             {/* Hamburger menu */}
-            <ScrollAnimation animateIn="bounceIn">
+          
             <div
            
            className={`pulse_button_open navbar-burger  d-flex align-items-center justify-content-center${this.state.navBarActiveClass}`}
@@ -50,7 +49,7 @@ const Navbar = class extends React.Component {
            onClick={() => this.toggleHamburger()}
          ><span style={{fontWeight:'100', color: '#e6c2ae'}}  >ПОДРОБНЕЙ</span>
            
-         </div></ScrollAnimation>
+         </div>
           </div>
           <div
            
