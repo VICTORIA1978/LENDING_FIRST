@@ -1,12 +1,12 @@
 import React from "react"
 import { Row, Col, Container} from "react-bootstrap"
 
-import Modall from "../components/modal2"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import GoogleMap from '../components/GoogleMap'
 
-import Par from "../components/paralax"
+
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faInstagram,faFacebookF,faYoutube,faGoogle } from "@fortawesome/free-brands-svg-icons"
@@ -14,7 +14,9 @@ import BlockFade from "../components/fade_animation_block"
 import BlockFashion from "../components/fashion_block"
 import About from "../components/about"
 import Youtube from "../components/youtube"
-import Paralax1 from "../components/collaboration"
+import Paralax1 from "../components/paralax_first"
+import Paralax2 from "../components/paralax_second"
+import Map from "../components/map"
 export default  () => {
 
 
@@ -47,6 +49,7 @@ export default  () => {
   <Youtube/>
 
   <Paralax1/>
+ 
 <Container   className="">
     <Row className="">
       <Col className="mod_slider   my-5 vh-100">
@@ -54,10 +57,10 @@ export default  () => {
      </Row>
 </Container>
  
+<Paralax2/>
 
 
-
-
+<Map/>
 
 
 
@@ -65,50 +68,9 @@ export default  () => {
 
 
   
-  <Container  fluid className="">
-    <Row className="">
-      <Col className=" position-relative p-0">
-      <Par/>
-     
-     
-      <div className="overlay_fixed position-absolute">
-      
-        <div className="d-flex justify-content-center align-items-center h-100">
-       
-        <Container   className="  ">
-        
-          <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
-          <p className="d-flex justify-content-center text-center text-light">Доставку разрабатываем совместно, исходя из вашего 
-желания и местонахождения.
-По предварительной договорённости товар может 
-быть доставлен в любую точку Украины, СНГ или Европы.</p>
-          <div className="d-flex justify-content-center"><Modall/></div>
+  
 
-
-       
-        
-         </Container>
-
-
-
-        </div>
-      </div>
-        
-     
-     
-      </Col>
-      </Row>
-  </Container>
-
-  <Container  fluid className="p-0">
-    <Row className="">
-      <Col className="mapss">      
-     
-      <GoogleMap /> 
-     
-</Col>
-      </Row>
-  </Container>
+ 
   <Container  fluid className="p-0">
     <Row className="">
       <Col className="foterss">      
