@@ -1,10 +1,10 @@
 import React from "react"
-import { Row, Col, Container} from "react-bootstrap"
+import { Row, Col, Container,Carousel} from "react-bootstrap"
 
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import Img from "../images/slide1big.jpg"
 
 
 
@@ -53,6 +53,34 @@ export default  () => {
 <Container   className="">
     <Row className="">
       <Col className="mod_slider   my-5 vh-100">
+      <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img}
+      alt="First slide"
+    />
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img}
+      alt="Third slide"
+    />
+
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img}
+      alt="Third slide"
+    />
+
+   
+  </Carousel.Item>
+</Carousel>
       </Col>
      </Row>
 </Container>
