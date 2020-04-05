@@ -52,8 +52,8 @@ export default  () => {
  
 <Container   className="">
     <Row className="">
-      <Col className="mod_slider   my-5 vh-100">
-      <Carousel>
+      <Col className="mod_slider   my-5 ">
+      <Carousel className=" d-none d-md-block">
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -80,8 +80,9 @@ export default  () => {
 
    
   </Carousel.Item>
-</Carousel>
-<Carousel>
+</Carousel >
+
+<Carousel className="d-block d-md-none" >
   <Carousel.Item>
     <img
       className="d-block w-100"

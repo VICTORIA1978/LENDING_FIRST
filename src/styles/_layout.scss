@@ -28,7 +28,7 @@ div#___gatsby{
   .home-hero-column p{
     text-align: left;
     max-width: 200px;
-    font-size: 0.5rem;
+   
     letter-spacing: 4px;
     line-height: 1.66;
     text-transform: uppercase;
@@ -154,17 +154,7 @@ background-color: #ffffff73;
  }
 
 
-@include media-breakpoint-up(md) {
-     
-         
-}
 
-@include media-breakpoint-up(lg) {
- 
- 
-
-      
-}
 
 
 //pulse modal dialog ------------------------------------------------------------------------
@@ -223,10 +213,10 @@ background-color: #ffffff73;
   background: linear-gradient(135deg,#f5968a,#ffb8b178 48%,#f59f95 99%,#f6a399);
   display: block;
   
-
-
-
-
+//carusel-------------------
+.mod_adaptaiv_slider_lg{
+  display:none;
+}
 }
 .map{
   animation: radial-pulse 1.5s infinite;
@@ -264,4 +254,25 @@ background-color: #ffffff73;
   
    }
  
+}
+@include media-breakpoint-up(md) {
+  .mod_adaptaiv_slider_sm{
+  display: none;
+  }
+  .mod_adaptaiv_slider_lg{
+    display:block;
+  }  
+         
+}
+
+@include media-breakpoint-up(lg) {
+ 
+ 
+
+      
+}
+
+
+.mod_adaptaiv_slider_lg{
+  display:none;
 }
