@@ -5,7 +5,7 @@ import { Row, Col, Container,Carousel} from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "../images/slide1big.jpg"
-
+import Img1 from "../images/slide1bsmol.jpg"
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -81,6 +81,35 @@ export default  () => {
    
   </Carousel.Item>
 </Carousel>
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img1}
+      alt="First slide"
+    />
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img1}
+      alt="Third slide"
+    />
+
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img1}
+      alt="Third slide"
+    />
+
+   
+  </Carousel.Item>
+</Carousel>
+
       </Col>
      </Row>
 </Container>
