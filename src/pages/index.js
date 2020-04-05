@@ -5,14 +5,13 @@ import Modall from "../components/modal2"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GoogleMap from '../components/GoogleMap'
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
+
 import Par from "../components/paralax"
 import Par2 from "../components/paralax2"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faInstagram,faFacebookF,faYoutube,faGoogle } from "@fortawesome/free-brands-svg-icons"
-
-
+import BlockFade from "../components/fade_animation_block"
+import BlockFashion from "../components/fashion_block"
 
 
 export default  () => {
@@ -21,78 +20,31 @@ export default  () => {
   return(
   <Layout pageInfo={{ pageName: "index" }}>
   <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
+  
+  
   <Container  fluid className="">
-    <Row className="">
-      <Col className="container_overlay_inner  p-0  vh-100     position-relative ">
-     
-     <div className="mod_social_block d-flex flex-column mt-3 mr-2  position-fixed">
-     <span className="social  mb-2 d-flex align-items-center justify-content-center text-light "> <FontAwesomeIcon icon={faInstagram} /></span>
-     <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faFacebookF} /></span>
-     <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faYoutube} /></span>
-     <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faGoogle} /></span>
-     </div>
-     <div className=" style vh-100  w-100 position-absolute "></div>
-     <Container >
-       <Row>
-         <Col>
-     <div className="vh-100  w-100 d-flex align-items-center ">
-     <div style={{ marginTop:'0px'}} className="w-100  ">
-     <ScrollAnimation animateIn="fadeInLeft">
-     
-     <div className="text_fashion d-flex justify-content-start w-100 m-0"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'10px'}}>2020</p></div>
-     </ScrollAnimation> 
-     <ScrollAnimation animateIn="fadeIn">
-     <div className="text_fashions d-flex justify-content-center w-100"><h1 style={{fontWeight:'100', fontStyle: 'italic',  color:'#ddebff',marginTop:'0px'}}>WEDDING</h1></div>
-     <div className="text_normal d-flex justify-content-center w-100"><p style={{fontWeight:'100', fontStyle: 'normal',  color:'#ddebff',marginTop:'0px'}}>COLLECTION</p></div>
-</ScrollAnimation> 
-<ScrollAnimation animateIn="fadeInRight">
-     <div className="text_fashion d-flex justify-content-end w-100"><p style={{fontWeight:'400', fontStyle: 'italic', color:'rgb(255, 160, 164)',marginTop:'0px'}}>2021</p></div>
-     </ScrollAnimation>
-      
-      </div>
-     
+     <Row className="">
+        <Col className="container_overlay_inner  p-0  vh-100     position-relative ">
+              <div className="mod_social_block d-flex flex-column mt-3 mr-2  position-fixed">
+                    <span className="social  mb-2 d-flex align-items-center justify-content-center text-light "> <FontAwesomeIcon icon={faInstagram} /></span>
+                    <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faFacebookF} /></span>
+                    <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faYoutube} /></span>
+                    <span className="social mb-2 d-flex align-items-center justify-content-center text-light"><FontAwesomeIcon icon={faGoogle} /></span>
+               </div>
+               <div className=" style vh-100  w-100 position-absolute "></div>
+        <Container>
+              <BlockFade/>
+        </Container>
+        </Col>
+     </Row>
+  </Container>
+  
+  
+  
+          
+      <BlockFashion/>
+           
 
-      </div>
-      </Col>
-      </Row>
-      </Container>
-      </Col>
-    
-      <div className="vh-100  w-100 position-absolute d-flex align-items-center ">
-        <div></div>
-      </div>
-      </Row>
-  </Container>
-  <Container  fluid className="overlay px-3 py-5">
-    <Row className="">
-      <Col className="col-12 col-sm-4  ">
-    
-    
-    
-     <div className="home-hero-column">
-       <p>Wedding & Evening Gown by Victoria Simak</p>
-     </div>
-      </Col>
-      <Col className="col-12 col-sm-4 ">
-      <div className="home-hero-column">
-        <p className="home-hero-link-wrapper">
-       <span className="home-hero-link-headline">Discover our</span>
-       <span className="home-hero-link-title">Bridal</span>
-       </p>
-     </div>
-      </Col>
-      <hr className="hr d-inline d-sm-none"></hr>
-      <Col className="col-12 col-sm-4">
-      <div className="home-hero-column">
-        <p className="home-hero-link-wrapper">
-       <span className="home-hero-link-headline">Discover our</span>
-       <span className="home-hero-link-title">Bridal</span>
-       </p>
-     </div>
-      </Col>
-     
-      </Row>
-  </Container>
   
   
   
