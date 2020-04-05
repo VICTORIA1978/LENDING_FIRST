@@ -24,8 +24,8 @@ const Paralax2 = () => (
        
         <Container   className="  ">
         
-          <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
-          <p className="d-flex justify-content-center text-center text-light">Доставку разрабатываем совместно, исходя из вашего 
+          <h3 style={{    color: '#b2b2b2'}} className="d-flex justify-content-center ">СОТРУДНИЧЕСТВО</h3>
+          <p style={{fontWeight:'100',     color: '#b2b2b2'}} className="d-flex justify-content-center text-center ">Доставку разрабатываем совместно, исходя из вашего 
 желания и местонахождения.
 По предварительной договорённости товар может 
 быть доставлен в любую точку Украины, СНГ или Европы.</p>
