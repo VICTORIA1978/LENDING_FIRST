@@ -1,20 +1,20 @@
 import React from "react"
 import { Row, Col, Container} from "react-bootstrap"
-import Modal from "../components/modal"
+
 import Modall from "../components/modal2"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GoogleMap from '../components/GoogleMap'
 
 import Par from "../components/paralax"
-import Par2 from "../components/paralax2"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faInstagram,faFacebookF,faYoutube,faGoogle } from "@fortawesome/free-brands-svg-icons"
 import BlockFade from "../components/fade_animation_block"
 import BlockFashion from "../components/fashion_block"
 import About from "../components/about"
 import Youtube from "../components/youtube"
-
+import Paralax1 from "../components/collaboration"
 export default  () => {
 
 
@@ -46,64 +46,13 @@ export default  () => {
 
   <Youtube/>
 
-
-
-  
-
-
- 
- 
- 
- 
- 
- 
- 
- 
-  <Container  fluid className="">
-    <Row className="">
-      <Col className=" position-relative p-0">
-      <Par2/>
-     
-     
-      <div className="overlay_fixed position-absolute">
-        <div className="d-flex justify-content-center align-items-center h-100">
-        <Container  fluid className="  ">
- 
-          <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
-       
-          <div className="d-flex justify-content-center"> <Modal/></div>
-          
-         </Container>
-
-
-
-
-        </div>
-      </div>
-        
-     
-     
-      </Col>
-      </Row>
-  </Container>
-
-  <Container   className="">
+  <Paralax1/>
+<Container   className="">
     <Row className="">
       <Col className="mod_slider   my-5 vh-100">
-     
-        
-        
-        
-        
-        
-        
-        
-        
- 
-
       </Col>
-      </Row>
-  </Container>
+     </Row>
+</Container>
  
 
 
