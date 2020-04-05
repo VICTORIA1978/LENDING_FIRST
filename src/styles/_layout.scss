@@ -130,7 +130,7 @@ background-color: #ffffff73;
   }
  
   100% {
-    box-shadow: 0 0 0 20px #fc710000;
+    box-shadow: 0 0 0 10px #fc710000;
   }
 }
 
@@ -215,13 +215,18 @@ background-color: #ffffff73;
  
   width: 13rem;
   height: 3rem;
-  color: #9d9d9d;
-  border-radius: 1rem;
+  color: rgb(214, 214, 214);
+  border-radius: 2rem;
   animation: radial-pulse 1.5s infinite;
   background: #ffcaad;
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffcaad), color-stop(48%, white), color-stop(99%, #ffd9b8), color-stop(100%, #ffd9b8));
-  background: linear-gradient(135deg, #ffcaad 0%, white 48%, #ffd9b8 99%, #ffd9b8 100%);
+  background: -webkit-gradient(left top,right bottom,color-stop(0,#ffcaad),color-stop(48%,#fff),color-stop(99%,#ffd9b8),color-stop(100%,#ffd9b8));
+  background: linear-gradient(135deg,#f5968a,#ffb8b178 48%,#f59f95 99%,#f6a399);
   display: block;
+  
+
+
+
+
 }
 .map{
   animation: radial-pulse 1.5s infinite;
