@@ -2,6 +2,8 @@ import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Forme from './form'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {  faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -60,12 +62,12 @@ const Navbar = class extends React.Component {
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLongTitle">ДОСТАВКА И ОПЛАТА</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span  className={`btn btn-secondary   ${this.state.navBarActiveClass}`}
+        
+          <span  className={`  ${this.state.navBarActiveClass}`}
               type="button"
               data-dismiss="modal"
-              onClick={() => this.toggleHamburger()}>close</span>
-        </button>
+              onClick={() => this.toggleHamburger()}><FontAwesomeIcon icon={faTimesCircle} /></span>
+     
       </div>
       <div class="modal-body">
      

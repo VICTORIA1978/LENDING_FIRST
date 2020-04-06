@@ -2,6 +2,8 @@ import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import Forme from './form'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {  faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -58,16 +60,16 @@ const Navbar = class extends React.Component {
           >
                  <div className="modal-dialog">
                   <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header text-white" style={{background:'#9a8484'}}>
                       <h5 class="modal-title" id="exampleModalLongTitle">Условия сотрудничества</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span  className={`btn btn-secondary   ${this.state.navBarActiveClass}`}
+                      
+          <span  className={` btn btn-secondary   ${this.state.navBarActiveClass}`}
               type="button"
               data-dismiss="modal"
-              onClick={() => this.toggleHamburger()}>close</span>
-        </button>
+              onClick={() => this.toggleHamburger()}><FontAwesomeIcon icon={faTimesCircle} /></span>
+        
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style={{background:'#f8f2e7'}}>
      
         <p><strong style={{fontWeight:'400'}}>Мы очень рады, что вы решили стать нашим партнером.
 Какие условия сотрудничества?</strong>
@@ -122,7 +124,7 @@ const Navbar = class extends React.Component {
         <li style={{fontWeight:'100'}}>мы уверены, что Вы будете довольны нашей продукцией. Мы используем только лучшие материалы, и наши платья будут выглядеть  в точности как на фото. А так же за много лет в свадебной индустрии мы обрели множество постоянных клиентов, которые оставляют только положительные отзывы.
         </li></ul>
       </div>
-      <div class="modal-footer p-0 bg-secondary text-white">
+      <div class="modal-footer p-0  text-white" style={{background:'#9a8484'}}>
     <Forme></Forme>
       </div>
     </div>
