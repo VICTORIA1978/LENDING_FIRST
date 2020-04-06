@@ -14,7 +14,7 @@ const Paralax1 = () => (
             <div className="overlay_fixed position-absolute">
                 <div className="d-flex justify-content-center align-items-center h-100">
                     <Container  fluid className="  ">
-                        <h3 className="d-flex justify-content-center text-light">СОТРУДНИЧЕСТВО</h3>
+                        <h3 style={{    color: '#eaeaea'}} className="d-flex justify-content-center ">СОТРУДНИЧЕСТВО</h3>
                         <div className="d-flex justify-content-center"> <Modal/></div>
                     </Container>
                 </div>
