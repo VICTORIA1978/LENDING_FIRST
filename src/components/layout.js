@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
 import { Container, Row, Col } from "react-bootstrap"
-
+import Logo from "../images/Logo.png"
 import Header from "./header"
 import Navbar from "./navBar"
 
@@ -38,17 +38,26 @@ const Layout = ({ children, pageInfo }) => (
             </Col>
           </Row>
         </Container>
-        <Container  className="">
-          <Row noGutters>
-            <Col className="footer-col">
-              <footer>
-                <span>
-                 {/* © {new Date().getFullYear()}*/}
-                </span>
-              </footer>
-            </Col>
-          </Row>
-        </Container>
+      
+          <Container fluid >
+          
+    <Row >
+    
+         
+            <Col className="col-12 text-center py-3 bg-dark">
+              <div className=" mb-3 " style={{height:'1px', background:'white'}}></div>
+              <div>
+              <img style={{width:'20%'}} src={Logo}/>
+              </div>
+              <p style={{color:'white'}}>Victori Simak</p>
+              
+              </Col>
+          
+      
+    </Row>
+   
+</Container>
+        
       </>
     )}
   />

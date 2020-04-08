@@ -7,7 +7,7 @@ const defaultProps = {
     lat: 48.291888,
     lng: 25.940761,
   },
-  zoom: 10,
+  zoom: 15,
 }
 
 const AnyReactComponent = ({ text }) => <div className="map" style={{ height: '20px', width: '20px' ,     background:'#7f7f7f',    borderRadius: '1rem'

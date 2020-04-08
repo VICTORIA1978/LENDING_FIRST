@@ -17,6 +17,7 @@ import Youtube from "../components/youtube"
 import Paralax1 from "../components/paralax_first"
 import Paralax2 from "../components/paralax_second"
 import Map from "../components/map"
+
 export default  () => {
 
 
@@ -125,19 +126,12 @@ export default  () => {
 
 
 
+
   
   
 
  
-  <Container  fluid className="p-0">
-    <Row className="">
-      <Col className="foterss">      
-     
-    
-     
-</Col>
-      </Row>
-  </Container>
+  
 </Layout>
   )
 }
