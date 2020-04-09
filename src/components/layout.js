@@ -46,11 +46,11 @@ const Layout = ({ children, pageInfo }) => (
     
          
             <Col className="col-12 text-center py-3 bg-dark">
-              <div className=" mb-3 " style={{height:'0.4px', background:'white'}}></div>
+              <div className=" mb-3 " style={{height:'0.5px', background:'white'}}></div>
               <div>
-              <img style={{width:'20%'}} src={Logo}/>
+              <img className="foter_text" src={Logo}/>
               </div>
-              <img style={{width:'20%'}} src={Text}/>
+              <img className="foter_text2" src={Text}/>
               
               </Col>
           

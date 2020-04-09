@@ -256,6 +256,12 @@ background-color: #ffffffcc;
    }
  
 }
+.foter_text{
+  width: 40%;
+}
+.foter_text2{
+  width: 50%;
+}
 @include media-breakpoint-up(md) {
   .mod_adaptaiv_slider_sm{
   display: none;
@@ -263,6 +269,12 @@ background-color: #ffffffcc;
   .mod_adaptaiv_slider_lg{
     display:block;
   }  
+  .foter_text{
+    width: 20%;
+  }
+  .foter_text2{
+    width: 20%;
+  }
          
 }
 
