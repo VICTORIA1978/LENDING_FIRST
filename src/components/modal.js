@@ -61,7 +61,7 @@ const Navbar = class extends React.Component {
                  <div className="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header " style={{}}>
-                      <h5 class="modal-title" id="exampleModalLongTitle">Условия сотрудничества</h5>
+                      <h5 class="modal-title" id="exampleModalLongTitle">Доставка и оплата</h5>
                       
           <span  className={` btn btn-secondary   ${this.state.navBarActiveClass}`}
               type="button"
