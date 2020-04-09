@@ -60,7 +60,7 @@ const Navbar = class extends React.Component {
           >
                  <div className="modal-dialog">
                   <div class="modal-content">
-                    <div class="modal-header text-white" style={{background:'#9a8484'}}>
+                    <div class="modal-header " style={{}}>
                       <h5 class="modal-title" id="exampleModalLongTitle">Условия сотрудничества</h5>
                       
           <span  className={` btn btn-secondary   ${this.state.navBarActiveClass}`}

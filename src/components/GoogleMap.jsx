@@ -10,10 +10,10 @@ const defaultProps = {
   zoom: 15,
 }
 
-const AnyReactComponent = ({ text }) => <div className="map" style={{ height: '20px', width: '20px' ,     background:'#7f7f7f',    borderRadius: '1rem'
+const AnyReactComponent = ({ text }) => <div className="map" style={{ height: '20px', width: '20px' ,     background:'red',    borderRadius: '1rem'
 }}>{text}</div>
 const AyReactComponent = ({ text }) => <FontAwesomeIcon style={{   background:'red',    fontSize: '1rem'
-}} icon={faInstagram} >{text}</FontAwesomeIcon>
+}}  >{text}</FontAwesomeIcon>
 const GoogleMap = () => (
   <div style={{ height: '60vh', width: '100%' }}>
     <GoogleMapReact
@@ -25,12 +25,12 @@ const GoogleMap = () => (
       <AnyReactComponent
         lat={48.291888}
         lng={25.940761}
-        text={' Avsr'}
+        text={' VS'}
       />
        <AyReactComponent
         lat={48.291888}
         lng={25.940000}
-        text={' Avsr'}
+        text={' VS'}
       />
     </GoogleMapReact>
   </div>

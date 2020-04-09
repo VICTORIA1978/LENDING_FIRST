@@ -5,7 +5,15 @@ import { Row, Col, Container,Carousel} from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "../images/slide1big.jpg"
-import Img1 from "../images/slide1bsmol.jpg"
+import Imgb from "../images/slide2Abig.jpg"
+import Imgb1 from "../images/slider1.jpg"
+
+import Img1 from "../images/slidesm1.jpg"
+import Img2 from "../images/slidesm2.jpg"
+import Img3 from "../images/slidesm3.jpg"
+import Img4 from "../images/slidesm4.jpg"
+import Img5 from "../images/slidesm5.jpg"
+import Img6 from "../images/slidesm6.jpg"
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -66,7 +74,7 @@ export default  () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Img}
+      src={Imgb}
       alt="Third slide"
     />
 
@@ -75,7 +83,7 @@ export default  () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Img}
+      src={Imgb1}
       alt="Third slide"
     />
 
@@ -95,7 +103,7 @@ export default  () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Img1}
+      src={Img2}
       alt="Third slide"
     />
 
@@ -104,7 +112,34 @@ export default  () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Img1}
+      src={Img3}
+      alt="Third slide"
+    />
+
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img4}
+      alt="Third slide"
+    />
+
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img5}
+      alt="Third slide"
+    />
+
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={Img6}
       alt="Third slide"
     />
 
