@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import { Container, Row, Col } from "react-bootstrap"
 import Logo from "../images/Logo.png"
+import Text from "../images/Text.png"
 import Header from "./header"
 import Navbar from "./navBar"
 
@@ -45,11 +46,11 @@ const Layout = ({ children, pageInfo }) => (
     
          
             <Col className="col-12 text-center py-3 bg-dark">
-              <div className=" mb-3 " style={{height:'1px', background:'white'}}></div>
+              <div className=" mb-3 " style={{height:'0.4px', background:'white'}}></div>
               <div>
               <img style={{width:'20%'}} src={Logo}/>
               </div>
-              <p style={{color:'white'}}>Victori Simak</p>
+              <img style={{width:'20%'}} src={Text}/>
               
               </Col>
           

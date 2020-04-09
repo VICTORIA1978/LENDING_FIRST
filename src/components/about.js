@@ -1,5 +1,6 @@
 import React from "react"
 import { Row, Col, Container} from "react-bootstrap"
+import Logo from "../images/Logo.png"
 
 
 
@@ -20,13 +21,13 @@ const About = () => (
                     <p>ФИЛОСОФИЯ БРЕНДА</p>
                     <Row className="">
                          <Col  className="col-sm-8 ">
-                              <h3 className="">Мы создаем лучшие свадебные образы</h3>
+                              <h3 style={{fontWeight:'400'}}>Мы создаем лучшие свадебные образы</h3>
                           </Col>
                           <Col className="  col-sm-4 d-md-block d-none  ">
-                               <h1 className="d-flex justify-content-end d-inline"><span>Logo</span></h1>
+                               <h1 className="d-flex justify-content-end d-inline">     <img style={{width:'70%'}} src={Logo}/></h1>
                           </Col>
                            <Col className="col-12 col-sm-5 pl-5  py-5">
-                                  <p >Victoria Simak - известный бренд, который 
+                                  <p style={{fontWeight:'100'}}>Victoria Simak - известный бренд, который 
                                         представляет на мировом рынке эксклюзивные модели свадебных платьев. Мы воплощаем любые вкусы невест - от проверенной временем классики, до самых современных веяний моды.
                                         В разработке платьев используются дорогие ткани
                                          разной фактуры и текстуры ведущих европейских 
@@ -35,7 +36,7 @@ const About = () => (
                                   </p>
                            </Col>
                            <Col className="col-12 col-sm-7 pl-sm-5  py-sm-5 ">
-                                   <p className="mb-4"> Мы отличаемся внимательным
+                                   <p style={{fontWeight:'100'}} className="mb-4"> Мы отличаемся внимательным
                                    одходом к пожеланиям заказчика, и стремимся
                                     выдержать индивидуальный,  неповторимый стиль, 
                                     который в каждом случае подчёркивает 
