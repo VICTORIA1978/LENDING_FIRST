@@ -59,8 +59,8 @@ const Navbar = class extends React.Component {
             className={`modal-backdrop ${this.state.navBarActiveClass}`}
           >
                  <div className="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header " style={{}}>
+                  <div style={{background:'#fff8f7'}} class="modal-content">
+                    <div  class="modal-header " style={{}}>
                       <h5 class="modal-title" id="exampleModalLongTitle">Доставка и оплата</h5>
                       
           <span  className={` btn btn-secondary   ${this.state.navBarActiveClass}`}
@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
               onClick={() => this.toggleHamburger()}><FontAwesomeIcon icon={faTimesCircle} /></span>
         
       </div>
-      <div class="modal-body" style={{background:'#f8f2e7'}}>
+      <div class="modal-body" >
      
         <p><strong style={{fontWeight:'400'}}>Мы очень рады, что вы решили стать нашим партнером.
 Какие условия сотрудничества?</strong>
@@ -124,7 +124,7 @@ const Navbar = class extends React.Component {
         <li style={{fontWeight:'100'}}>мы уверены, что Вы будете довольны нашей продукцией. Мы используем только лучшие материалы, и наши платья будут выглядеть  в точности как на фото. А так же за много лет в свадебной индустрии мы обрели множество постоянных клиентов, которые оставляют только положительные отзывы.
         </li></ul>
       </div>
-      <div class="modal-footer p-0  text-white" style={{background:'#9a8484'}}>
+      <div class="modal-footer p-0  text-white" >
     <Forme></Forme>
       </div>
     </div>

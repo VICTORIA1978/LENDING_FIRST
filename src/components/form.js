@@ -35,7 +35,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="w-100 ">
-        <h2 className="text-center">Связаться с нами</h2>
+        <h2 style={{fontWeight:'400'}}  className="text-center m-0">Связаться с нами</h2>
         <form
           name="contact"
           method="post"
@@ -46,38 +46,33 @@ export default class Contact extends React.Component {
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
-          <p hidden>
-            <label className="w-100" >
+          <p hidden >
+            <label className="w-100 " >
               Don’t fill this out:{" "}
               <input className="w-100" name="bot-field" onChange={this.handleChange} />
             </label>
-          </p>
-          <p>
+          </p >
+          <p className="m-0">
             <label style={{fontWeight:'100'}} className="w-100">
-              your name:<br />
+               name:<br />
               <input className="w-100" type="text" name="name" onChange={this.handleChange} />
             </label>
           </p>
-          <p>
-            <label style={{fontWeight:'100'}} className="w-100">
-   your name:<br />
-              <input className="w-100" type="text" name="name" onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <label style={{fontWeight:'100'}} className="w-100">
-              your email:<br />
+         
+          <p className="m-0">
+            <label style={{fontWeight:'100'}} className="w-100 ">
+              email:<br />
               <input className="w-100" type="email" name="email" onChange={this.handleChange} />
             </label>
           </p>
           <p>
-            <label style={{fontWeight:'100'}} className="w-100">
+            <label style={{fontWeight:'100'}} className="w-100 ">
               message:<br />
-              <textarea className="w-100" name="message" onChange={this.handleChange} />
+              <textarea style={{borderRadius:'4px'}} className="w-100" name="message" onChange={this.handleChange} />
             </label>
           </p>
           <p className="text-center">
-            <button className="w-50"  type="submit">SEND</button>
+            <button style={{borderRadius:'4px', border:'none' , color:'white'}} className="button_foter w-100"  type="submit">ОТПРАВИТЬ</button>
           </p>
         </form>
       </div>

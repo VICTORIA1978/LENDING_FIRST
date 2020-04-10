@@ -24,7 +24,7 @@ const About = () => (
                               <h3 style={{fontWeight:'400'}}>Мы создаем лучшие свадебные образы</h3>
                           </Col>
                           <Col className="  col-sm-4 d-md-block d-none  ">
-                               <h1 className="d-flex justify-content-end d-inline">     <img style={{width:'70%'}} src={Logo}/></h1>
+                               <h1 className="d-flex justify-content-end d-inline">     <img style={{width:'150px'}} src={Logo}/></h1>
                           </Col>
                            <Col className="col-12 col-sm-5 pl-5  py-5">
                                   <p style={{fontWeight:'100'}}>Victoria Simak - известный бренд, который 
