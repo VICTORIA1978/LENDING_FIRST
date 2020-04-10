@@ -55,14 +55,14 @@ export default class Contact extends React.Component {
           <p className="m-0">
             <label style={{fontWeight:'100'}} className="w-100">
                name:<br />
-              <input className="w-100" type="text" name="name" onChange={this.handleChange} />
+              <input style={{borderRadius:'4px'}} className="w-100" type="text" name="name" onChange={this.handleChange} />
             </label>
           </p>
          
           <p className="m-0">
             <label style={{fontWeight:'100'}} className="w-100 ">
               email:<br />
-              <input className="w-100" type="email" name="email" onChange={this.handleChange} />
+              <input style={{borderRadius:'4px'}} className="w-100" type="email" name="email" onChange={this.handleChange} />
             </label>
           </p>
           <p>
