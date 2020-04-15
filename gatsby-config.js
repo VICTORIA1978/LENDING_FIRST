@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/gatsby-react-bootstrap-starter",
+  pathPrefix: "Wedding salon Victoria Simak",
   siteMetadata: {
     title: `Свадебные платья от Victoria Simak`,
     description: `Свадебные платья от Victoria Simak`,
     author: `Billy Jacoby`,
-    siteUrl: `https://gatsby-starter-bootstrap.appseed.us`
+    siteUrl: `https://condescending-boyd-6c281f.netlify.app`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
